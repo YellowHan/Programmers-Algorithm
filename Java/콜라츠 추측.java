@@ -1,4 +1,4 @@
-// Äİ¶óÃ÷ ÃßÃø
+// ì½œë¼ì¸  ì¶”ì¸¡
 public class Q17 {
 	public static void main(String[] args) {
 		int n = 626331;
