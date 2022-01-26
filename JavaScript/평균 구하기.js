@@ -10,5 +10,14 @@ const arr2 = [5, 5];
 
 const solution = arr => arr.reduce((perv, curr) => perv + curr) / arr.length;
 
+function solution2(arr) {
+  let result = 0;
+  for(let i = 0; i < arr.length; i++) {
+    result += arr[i];
+  }
+  return result /= arr.length;
+  
+}
+
 console.log(solution(arr1)); // 2.5
-console.log(solution(arr2)); // 5
+console.log(solution2(arr2)); // 5
