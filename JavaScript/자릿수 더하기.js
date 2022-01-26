@@ -12,5 +12,5 @@ const solution = n => {
   return num;
 }
 
-// let a = 123;
-// console.log(solution(a));
+let a = 123;
+console.log(solution(a)); // 6
