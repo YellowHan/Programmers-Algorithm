@@ -2,7 +2,7 @@
 // 로또의 최고 순위와 최저 순위
 
 const solution = (lottos, win_nums) => {
-  const min = lottos.filter((number) => win_nums.includes(number)).length; // [ 1, 31 ]
+  const min = lottos.filter((number) => win_nums.includes(number)).length;
   const max = min + lottos.filter((number) => number === 0).length;
   const match = (number) => {
     switch (number) {
